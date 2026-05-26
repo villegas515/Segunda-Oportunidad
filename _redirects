@@ -1,5 +1,5 @@
-# Redireccionar la home
+# 1. Redireccionar la home correctamente
 /index.html    /    301!
 
-# Redireccionar cualquier página .html a su versión limpia
-/:page.html    /:page    301!
+# 2. Redireccionar cualquier página .html sin que se rompa la URL
+/*\.html       /:splat    301!
