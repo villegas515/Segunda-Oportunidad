@@ -1,5 +1,64 @@
-# 1. Redireccionar la home correctamente
-/index.html    /    301!
+# ============================================================
+# Redireccionamiento 301: URLs con .html → sin .html
+# Forzado con (!) para anular el comportamiento por defecto de Netlify
+# ============================================================
 
-# 2. Redireccionar cualquier página .html sin que se rompa la URL
-/*\.html       /:splat    301!
+/index.html            /                    301!
+/contacto.html         /contacto            301!
+/ayuda.html            /ayuda               301!
+
+# Ciudades Principales
+/madrid.html           /madrid              301!
+/barcelona.html        /barcelona           301!
+/valencia.html         /valencia            301!
+/sevilla.html          /sevilla             301!
+/alicante.html         /alicante            301!
+/malaga.html           /malaga              301!
+/murcia.html           /murcia              301!
+/zaragoza.html         /zaragoza            301!
+/granada.html          /granada             301!
+/cordoba.html          /cordoba             301!
+/valladolid.html       /valladolid          301!
+
+# Provincias y Comunidades
+/alava.html            /alava               301!
+/albacete.html         /albacete            301!
+/almeria.html          /almeria             301!
+/asturias.html         /asturias            301!
+/avila.html            /avila               301!
+/badajoz.html          /badajoz             301!
+/burgos.html           /burgos              301!
+/caceres.html          /caceres             301!
+/cadiz.html            /cadiz               301!
+/cantabria.html        /cantabria           301!
+/castellon.html        /castellon           301!
+/ceuta.html            /ceuta               301!
+/ciudad-real.html      /ciudad-real         301!
+/cuenca.html           /cuenca              301!
+/girona.html           /girona              301!
+/guadalajara.html      /guadalajara         301!
+/guipuzcoa.html        /guipuzcoa           301!
+/huelva.html           /huelva              301!
+/huesca.html           /huesca              301!
+/islas-baleares.html   /islas-baleares      301!
+/jaen.html             /jaen                301!
+/la-coruna.html        /la-coruna           301!
+/la-rioja.html         /la-rioja            301!
+/las-palmas.html       /las-palmas          301!
+/leon.html             /leon                301!
+/lerida.html           /lerida              301!
+/lugo.html             /lugo                301!
+/melilla.html          /melilla             301!
+/navarra.html          /navarra             301!
+/orense.html           /orense              301!
+/palencia.html         /palencia            301!
+/pontevedra.html       /pontevedra          301!
+/salamanca.html        /salamanca           301!
+/segovia.html          /segovia             301!
+/soria.html            /soria               301!
+/tarragona.html        /tarragona           301!
+/tenerife.html         /tenerife            301!
+/teruel.html           /teruel              301!
+/toledo.html           /toledo              301!
+/vizcaya.html          /vizcaya             301!
+/zamora.html           /zamora              301!
