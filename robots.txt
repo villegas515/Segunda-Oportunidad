@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Evitar indexación de recursos estáticos innecesarios
+Disallow: /assets/
+
+# Sitemap
+Sitemap: https://abogados-leysegundaoportunidad.com/sitemap.xml
