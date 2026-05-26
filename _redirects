@@ -1,2 +1,2 @@
 /index.html /
-/:slug.html /:slug 301!
+/*.html /:splat 301!
